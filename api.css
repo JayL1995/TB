@@ -1,0 +1,221 @@
+blockquote, body, dd, dir, dl, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, input, legend, menu, ol, optgroup, p, pre, tbody, td, textarea, tfoot, th, thead, ul {
+	margin: 0;
+	padding: 0
+}
+
+ol, ul {
+	list-style-type: none;
+	list-style-image: none
+}
+
+body, button, input, select, textarea {
+	-ms-text-autospace: ideograph-alpha ideograph-numeric ideograph-parenthesis;
+	text-autospace: ideograph-alpha ideograph-numeric ideograph-parenthesis
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400
+}
+
+
+
+body {
+	background: #F6F5F7;
+}
+
+
+.beatMain {
+	position: relative;
+	padding: 0 16px;
+
+}
+
+.beatMain .imgContainer {
+	margin-top: 14px;
+}
+
+.beatMain .imgContainer img {
+	width: 100%;
+	height: auto;
+	box-shadow: 0px 3px 12px rgba(21, 0, 71, 0.16);
+}
+
+.beatMain .moonTitleContainer {
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+.beatMain .moonTitleContainer span {
+	color: #FF5500;
+	margin-right: 16px;
+}
+
+.beatMain .itemContent {
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.80);
+	line-height: 21px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.beatMain .itemPrice {
+	font-family: STHeitiSC-Light;
+	font-size: 16px;
+	color: #FF5500;
+	line-height: 16.5px;
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.beatMain .itemTips {
+	font-size: 12px;
+	color: rgba(0,0,0,.4);
+	text-align: center;
+}
+
+.beatWord {
+	text-align: center;
+}
+
+.beatWord fieldset {
+	padding: 0.8em;
+	margin: 0 2px;
+	border: 1px dashed #f54d23;
+	background: #fff;
+}
+
+.beatWord fieldset legend {
+	background: #f54d23;
+	border: none;
+	font-size: 0.8rem;
+	line-height: 20px;
+	color: #fff;
+	padding: 0 4px;
+}
+
+.beatWord button {
+	border: none;
+	font-size: 16px;
+	padding: 6px 30px;
+	background: #f60;
+	display: inline-block;
+	margin: 10px auto;
+	border-radius: 16px;
+	color: #fff;
+}
+
+.ceatWord fieldset {
+	padding: 0.8em;
+	margin: 0 2px;
+	border: 1px dashed #04B404;
+	background: #fff;
+}
+
+.ceatWord fieldset legend {
+	background: #04B404;
+	border: none;
+	font-size: 0.8rem;
+	line-height: 20px;
+	color: #fff;
+	padding: 0 4px;
+}
+
+
+.nav {
+    background: #FFF;
+    padding: 10px 0 6px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.nav ul {
+    height: 0px;
+}
+.nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav ul li img{width:36px;height:auto;}
+.nav ul li span {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 16px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.box{
+	z-index: 2;
+	position: fixed;
+	left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: none;
+}
+.box1{
+    width: 70%;          
+    position: fixed;left: 15%; top: 10%; 
+	border: 1px solid #000000;
+    border-radius:30px;
+	background: #fff;
+}
+
+.proname {
+    line-height: 1.25rem;
+    font-size: .95rem;
+    color: #424242;
+}
+
+.price_box {
+    overflow: hidden;
+}	
+.price_box .price {
+    float: left;
+}
+.price_after {
+    color: #d12431;
+    font-size: .95rem;
+    line-height: 2rem;
+    height: 2rem;
+}
+.price_after .strongF {
+    font-size: 1.2rem;
+}
+.price_before {
+    color: #b2b2b2;
+    font-size: 1.05rem;
+    text-decoration: line-through;
+    padding-left: .7rem;
+}
+.price_box .coupon {
+    float: right;
+    width: 5.39rem;
+    height: 1.9rem;
+    line-height: 1.9rem;
+    color: #fff;
+    font-size: 1.2rem;
+    background: url(//rescdn.sitezt.cn/A/resource/shopdetail/coupon.png) no-repeat;
+    -webkit-background-size: 5.39rem 1.9rem;
+    background-size: 5.39rem 1.9rem;
+}
+.price_box .coupon span{
+	
+padding-left:1rem;	
+	
+}
+.xinxi{
+	display:none;
+}
+
